@@ -16,28 +16,28 @@
         S_F1: S_F1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHFT &kp F1>;
+            bindings = <&kt LSHFT &kp F1 &kt LSHFT>;
             label = "S_F1";
         };
 
         S_F2: S_F2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHFT &kp F2>;
+            bindings = <&kt LSHFT &kp F2 &kt LSHFT>;
             label = "S_F2";
         };
 
         S_F3: S_F3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHFT &kp F3>;
+            bindings = <&kt LSHFT &kp F3 &kt LSHFT>;
             label = "S_F3";
         };
 
         S_F4: S_F4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHFT &kp F4>;
+            bindings = <&kt LSHFT &kp F4 &kt LSHFT>;
             label = "S_F4";
         };
     };

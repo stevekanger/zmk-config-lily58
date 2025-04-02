@@ -12,10 +12,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    &led_strip {
-        chain-length = <27>;
-    };
-
     macros {
         S_F1: S_F1 {
             compatible = "zmk,behavior-macro";
